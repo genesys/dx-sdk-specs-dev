@@ -12,7 +12,7 @@ s.homepage         = ''
 s.license = 'private'
 s.author           = 'MessengerTransport'
 s.source = {
-    "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/MessengerTransport.framework.zip"
+    "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/MessengerTransport0-0-2.zip"
 }
 
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
