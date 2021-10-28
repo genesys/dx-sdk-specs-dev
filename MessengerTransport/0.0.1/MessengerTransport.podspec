@@ -15,11 +15,9 @@ s.source = {
     "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/MessengerTransport.framework.zip"
 }
 
-s.source_files = 'MessengerTransport.framework/Versions/A/Headers/*.h'
-
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
 s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-# s.static_framework = true
+s.static_framework = true
 s.vendored_frameworks = 'Frameworks/MessengerTransport.framework'
 s.ios.vendored_frameworks = 'Frameworks/MessengerTransport.framework'
 
