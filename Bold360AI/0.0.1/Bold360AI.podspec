@@ -46,7 +46,7 @@ s.subspec 'Core' do |sp|
   sp.dependency 'BoldAIEngine', '1.12.1'
   sp.dependency 'BoldAIAccessibility', '1.8.0'
   sp.dependency 'BoldEngine', '2.7.0'
-  # sp.dependency  'MessengerTransport'
+  sp.dependency  'MessengerTransport/Core'
   sp.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   sp.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end
