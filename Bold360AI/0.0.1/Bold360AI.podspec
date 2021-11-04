@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     # ]
 
 s.source = {
-"http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/ios/dev/Bold360AI/Bold360AI_version_v0.0.1.rc10_commit_2e8ec0df69b8f62a3adbb864b951c7d797509a42.zip"
+"http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/ios/dev/Bold360AI/Bold360AI_version_v0.0.1.rc11_commit_b1120546bd286acd82aa08a82c793851aea06c0a.zip"
 }
 
 s.ios.deployment_target  = '10.0'
@@ -46,7 +46,7 @@ s.subspec 'Core' do |sp|
   sp.dependency 'BoldAIEngine', '1.12.1'
   sp.dependency 'BoldAIAccessibility', '1.8.0'
   sp.dependency 'BoldEngine', '2.7.0'
-  sp.dependency  'MessengerTransport/Core'
+  # sp.dependency  'MessengerTransport'
   sp.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   sp.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end
