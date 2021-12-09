@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudCore by Genesys'
     s.source = {
-        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.0.rc3_commit_5566424b979396a4d6438c394e778b8a88f84eb6.zip"
+        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.0.rc4_commit_5566424b979396a4d6438c394e778b8a88f84eb6.zip"
     }
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
