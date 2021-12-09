@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license          = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudAccessibility by GenesysBold360'
     s.source = {
-        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v2.0.0.rc1_commit_957ef285d529a6832f13ddf29d38fc78175e151c.zip"
+        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v2.0.0.rc2_commit_957ef285d529a6832f13ddf29d38fc78175e151c.zip"
     }
     s.vendored_frameworks = 'GenesysCloudAccessibility.framework'
     s.requires_arc = true
