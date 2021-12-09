@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license          = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudBot by GenesysBold360'
     s.source = {
-        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudBot/GenesysCloudBot_version_v2.0.0.rc4_commit_1d07b2e8c74055ca8608ab28fe3185544c7188d2.zip"
+        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloudBot/GenesysCloudBot_version_v2.0.0.rc5_commit_1d07b2e8c74055ca8608ab28fe3185544c7188d2.zip"
     }
     s.vendored_frameworks = 'GenesysCloudBot.framework'
     s.requires_arc = true
