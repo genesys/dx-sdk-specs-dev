@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloud/GenesysCloud_version_v4.0.0.rc6_commit_7160e555890a51c2948383fff02c450eb95592ad.zip"
+  "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloud/GenesysCloud_version_v4.0.0.rc7_commit_d12d5cfaf4702fadfd21aba6382e637eb46d8480.zip"
   }
 
   s.ios.deployment_target  = '11.0'
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   sp.dependency 'GenesysCloudAccessibility', '2.0.0'
   sp.dependency 'GenesysCloudBot', '2.0.0'
   sp.dependency 'GenesysCloudBold', '3.0.0'
-  sp.dependency  'MessengerTransport', '0.0.7'
+  sp.dependency "GenesysCloudMessengerTransport"
   sp.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   sp.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end
