@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloud/GenesysCloud_version_v4.0.1.rc1_commit_113596a8f435b2ae601afc40c6cae726d1f6ff8e.zip"
+  "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloud/GenesysCloud_version_v4.0.1.rc2_commit_ec80c35b4eceb5891ddaeaabac52b47bcf4d627b.zip"
   }
 
   s.ios.deployment_target  = '11.0'
