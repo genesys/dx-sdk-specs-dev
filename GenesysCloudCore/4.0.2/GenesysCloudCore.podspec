@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
     s.license = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudCore by Genesys'
     s.source = {
-        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.2.rc2_commit_c9252728f7e91615c6e7eed16471057e00359683.zip"
+        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.2.rc4_commit_a781308c0947fbb601436338a5ca53ad7c2063ac.zip"
     }
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+
     s.vendored_frameworks = 'GenesysCloudCore.framework'
     s.requires_arc = true
     s.ios.deployment_target  = '10.0'
     s.swift_version = '5.0'
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 
 end
