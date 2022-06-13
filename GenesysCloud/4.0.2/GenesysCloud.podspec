@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   sp.dependency 'GenesysCloudAccessibility', '2.0.1'
   sp.dependency 'GenesysCloudBot', '2.0.2'
   sp.dependency 'GenesysCloudBold', '3.0.1'
-  sp.dependency "GenesysCloudMessengerTransport"
+  sp.dependency "GenesysCloudMessenger"
   sp.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   sp.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end
