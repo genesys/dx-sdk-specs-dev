@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloudMessenger by GenesysBold360'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.0.1.rc3_commit_c271978bbdcfcc90d1dee03e5b08c25c6bf5a7c5.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.0.1.rc4_commit_e1eedff15881c5cb0aff14bc404ee1d55c4695e4.zip"
   }
   
   s.vendored_frameworks = 'GenesysCloudMessenger.framework'
