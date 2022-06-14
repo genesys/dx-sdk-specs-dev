@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloudMessenger by GenesysBold360'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.0.1.rc2_commit_cb25bdae8e516cda429cb1fe13b7be515a2c36c5.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.0.1.rc3_commit_c271978bbdcfcc90d1dee03e5b08c25c6bf5a7c5.zip"
   }
   
   s.vendored_frameworks = 'GenesysCloudMessenger.framework'
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '11.0'
   s.pod_target_xcconfig = { 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO' }
   s.libraries = ['icucore']
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # Private Pod frameworks dependency
   s.dependency 'GenesysCloudCore', '4.0.2'
   s.dependency 'GenesysCloudMessengerTransport'
