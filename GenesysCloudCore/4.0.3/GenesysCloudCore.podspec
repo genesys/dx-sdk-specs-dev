@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudCore by Genesys'
     s.source = {
-        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.3.rc1_commit_0940a5bf7e22ec54e388d24877b2af59d24f3557.zip"
+        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.0.3.rc2_commit_0940a5bf7e22ec54e388d24877b2af59d24f3557.zip"
     }
 
     s.vendored_frameworks = 'GenesysCloudCore.framework'
