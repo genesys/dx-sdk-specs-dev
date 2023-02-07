@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudCore by Genesys'
     s.source = {
-        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/temp/GenesysCloudCore-xcframework.zip"
+        "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/temp/GenesysCloudCore-xcframework2.zip"
 #         "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.1.1.rc1_commit_82853c7bafac9c74af15c9215334238adafeb1e0.zip"
     }
 
