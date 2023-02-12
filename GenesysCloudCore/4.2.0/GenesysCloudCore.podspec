@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
         "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.2.0.rc5.xcframework.zip"
     }
 
-    s.vendored_frameworks = 'GenesysCloudCore.framework'
+    s.vendored_frameworks = 'GenesysCloudCore.xcframework'
     s.requires_arc = true
     s.ios.deployment_target  = '11.0'
     s.swift_version = '5.0'
