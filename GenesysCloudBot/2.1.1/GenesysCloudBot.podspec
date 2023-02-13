@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     s.source = {
         "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudBot/GenesysCloudBot_version_v2.1.1.rc1_commit_e3ef67033083612508142a06f2127a7d83ad5eab.zip"
     }
-    s.vendored_frameworks = 'GenesysCloudBot.framework'
+    s.vendored_frameworks = 'GenesysCloudBot.xcframework'
     s.requires_arc = true
     #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
