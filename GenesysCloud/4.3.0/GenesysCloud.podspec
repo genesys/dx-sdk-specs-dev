@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc4_commit_a257cee73026eee09c44383c0fd6931011e07c2e.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc5.xcframework.zip"
   }
 
   s.ios.deployment_target  = '13.0'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.subspec 'Core' do |sp|
-  sp.vendored_frameworks = 'GenesysCloud.framework'
+  sp.vendored_frameworks = 'GenesysCloud.xcframework'
   sp.requires_arc = true
 
   # Private Pod frameworks
