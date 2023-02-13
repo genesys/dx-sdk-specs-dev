@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
     s.license          = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudAccessibility by GenesysBold360'
     s.source = {
-        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v2.1.1.rc1_commit_d20d11a998e76b76761972b86d8ca9019841376c.zip"
+        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v2.1.1.rc2.xcframework.zip"
     }
-    s.vendored_frameworks = 'GenesysCloudAccessibility.framework'
+    s.vendored_frameworks = 'GenesysCloudAccessibility.xcframework'
     s.requires_arc = true
     #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
