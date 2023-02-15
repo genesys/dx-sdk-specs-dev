@@ -1,5 +1,5 @@
 #===================================================================================================
-# Copyright © 2021 GenesysCloud(Genesys).
+# Copyright © 2023 GenesysCloud(Genesys).
 # GenesysCloud SDK.
 # All rights reserved.
 # ===================================================================================================
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc7.xcframework.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc9_commit_b08b3be11c7bf7ced5bb11e2f2bde4468397bd9d.zip"
   }
 
   s.ios.deployment_target  = '13.0'
@@ -23,15 +23,16 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.subspec 'Core' do |sp|
-  sp.vendored_frameworks = 'GenesysCloud.xcframework'
-  sp.requires_arc = true
+    sp.vendored_frameworks = 'GenesysCloud.xcframework'
+    sp.requires_arc = true
 
-  # Private Pod frameworks
-  sp.dependency 'GenesysCloudAccessibility', '2.1.1'
-  sp.dependency 'GenesysCloudBot', '2.1.1'
-  sp.dependency 'GenesysCloudBold', '3.1.1'
-  sp.dependency 'GenesysCloudMessenger', '1.3.0'
-end
+    # Private Pod frameworks
+    sp.dependency 'GenesysCloudAccessibility', '2.1.1'
+    sp.dependency 'GenesysCloudBot', '2.1.1'
+    sp.dependency 'GenesysCloudBold', '3.1.1'
+    sp.dependency 'GenesysCloudMessenger', '1.3.0'
+    sp.pod_target_xcconfig = { 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
+  end
 
 s.default_subspec = 'Core'
 
