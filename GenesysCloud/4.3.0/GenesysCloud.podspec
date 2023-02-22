@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc25_commit_1fa24135ecaf4241f3f5c1d1c58c8f71f5d00dcf.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.3.0.rc26_commit_d256e53959f31499a91f1368b33e2499d66ae29b.zip"
   }
 
   s.ios.deployment_target  = '13.0'
