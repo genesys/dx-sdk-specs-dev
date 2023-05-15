@@ -16,7 +16,7 @@ GenesysCloudCore SDK
   s.homepage         = 'https://docs.genesys.com/Documentation'
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'Genesys Cloud Services, Inc.'
-  s.source           = { :http => 'https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.2.0.rc19_commit_c745ae5f7793f56c9e2a97c70c58f38609a87142.zip' }
+  s.source           = { :http => 'https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudCore/GenesysCloudCore_version_v4.2.0.rc20_commit_ae8432b002f48b8f7b031ad882224a83f2d8c0ca.zip' }
   s.vendored_frameworks = 'GenesysCloudCore.xcframework'
 
   s.requires_arc = true
