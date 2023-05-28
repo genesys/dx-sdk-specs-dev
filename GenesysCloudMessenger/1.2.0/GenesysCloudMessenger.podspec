@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # Private Pod frameworks dependency
   s.dependency 'GenesysCloudCore', '4.1.0'
-  s.dependency 'GenesysCloudMessengerTransport', '1.2.2'
+  s.dependency 'GenesysCloudMessengerTransport', '2.0.0'
   s.swift_version = '5.0'
 
 end
