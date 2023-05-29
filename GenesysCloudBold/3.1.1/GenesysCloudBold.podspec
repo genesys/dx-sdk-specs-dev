@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.libraries = ['icucore']
   # Private Pod frameworks dependency
   s.dependency 'GenesysCloudCore', '4.2.0'
+  s.dependency 'GenesysCloudMessengerTransport', '2.3.1'
   s.swift_version = '5.0'
 
 end
