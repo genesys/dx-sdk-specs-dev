@@ -17,7 +17,7 @@ GenesysCloudMessenger is an SDK that used as chat handler for bold API.
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloudMessenger by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.3.0.rc21_commit_afbb46d4ed7d6db8aca5e2c5a36f870332d0b356.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_v1.3.0.rc19_commit_a4aba5d5893949e7f473567aa2004d64a5841c27.zip"
   }
   
   s.vendored_frameworks = 'GenesysCloudMessenger.xcframework'
