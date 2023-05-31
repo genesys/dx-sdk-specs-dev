@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
     s.license          = 'Apache License, Version 2.0'
     s.author           = 'GenesysCloudAccessibility by GenesysBold360'
     s.source = {
-        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v0.0.1.rc6_commit_831683d7c96998caee09736cc607c0fb544c963c.zip"
+        "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloudAccessibility/GenesysCloudAccessibility_version_v0.0.1.rc10_commit_cd98489606986e1a392811fb4adb28ca59d3d7f6.zip"
     }
     s.vendored_frameworks = 'GenesysCloudAccessibility.xcframework'
     s.requires_arc = true
     s.ios.deployment_target  = '10.0'
-    s.dependency 'GenesysCloudMessengerTransport', '2.3.1'
+    #s.dependency 'GenesysCloudMessengerTransport', '2.3.1'
     s.swift_version = '5.0'
 end
