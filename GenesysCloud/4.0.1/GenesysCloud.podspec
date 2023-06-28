@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/dx/ios/dev/GenesysCloud/GenesysCloud_version_v4.0.1.rc2_commit_ec80c35b4eceb5891ddaeaabac52b47bcf4d627b.zip"
   }
 
-  s.ios.deployment_target  = '11.0'
+  s.ios.deployment_target  = '13.0'
   s.static_framework = true
 
   s.subspec 'Core' do |sp|
