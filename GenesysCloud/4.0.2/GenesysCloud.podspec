@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   "http" => "https://genesysdx.jfrog.io/artifactory/genesysdx-ios.dev/GenesysCloud/GenesysCloud_version_v4.0.2.rc4_commit_415737c74e475313b50d4dea943943197b5e2e15.zip"
   }
 
-  s.ios.deployment_target  = '11.0'
+  #s.ios.deployment_target  = '11.0'
+  s.ios.deployment_target  = '13.0'
   s.static_framework = true
   s.swift_version = '5.0'
 
