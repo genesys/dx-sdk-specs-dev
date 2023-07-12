@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                   = 'GenesysCloudMessengerTransport2'
-  s.version                = '2.3.2'
+  s.version                = '2.4.1'
   s.summary                = 'Genesys Cloud Messenger Transport SDK'
 
   s.description            = <<-DESC
@@ -37,6 +37,6 @@ SOFTWARE.
 
   s.ios.deployment_target  = '13.0'
 
-  s.vendored_frameworks    = 'MessengerTransport.xcframework'
+  s.vendored_frameworks    = 'MessengerTransportSDK.xcframework'
   s.libraries              = 'c++'
 end
