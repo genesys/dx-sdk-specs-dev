@@ -33,7 +33,7 @@ SOFTWARE.
                                LICENSE
                              }
   s.author                 = 'Genesys Cloud Services, Inc.'
-  s.source                 = { :http => 'https://genesysdx.jfrog.io/artifactory/TransportSDK/MessengerTransport.xcframework_2.3.2-rc.zip' }
+  s.source                 = { :http => 'https://genesysdx.jfrog.io/artifactory/TransportSDK/MessengerTransportSDK.xcframework_2.4.1-rc.zip' }
 
   s.ios.deployment_target  = '13.0'
 
